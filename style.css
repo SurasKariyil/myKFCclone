@@ -1,88 +1,164 @@
 body{
     margin: 0;
 }
-.header p{
-    display: inline-block;
-}
-.header button{
-    background-color: black;
-    color: aliceblue;
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
+.header{
+    margin-left: 35%;
 }
 .header img{
-    height: 15px;
+    float: left;
+    height:15px;
+    margin-right: 10px;
+    padding-top: 13px;
 }
-.container{
-    background-color: white;
+.header p{
+    float: left;
+    font-size: small;
 }
-.header{
-    text-align: center;
-
-}
-.navbar{
-    margin-left: 120px;
-}
-.navbar h5{
-    margin-left:30px;
-    background-color:white;
-    display: inline-block;
-    padding-bottom: 10px;
- 
-}
-.ac_icon{
-    padding-left: 1300px;
-    }
-.wallet_logo{
-    height: 50px;
-    margin-left: 3px;
-    margin-bottom: 0;
-}   
-.navbar Label{
-    padding-top: 6px;
-    font-weight: bold;
-
-} 
-.warn{
+.header button{
+    color: white;
     background-color: black;
-    color: white;
-    text-align:center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.warn button{
-    background-color: red;
-    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 20px;
-    padding: 10px;
-    margin-left: 4px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.browse_images{
-    margin-left: 250px;
-    margin-right: 250px;
-    display: flex;
-    align-items: center;
-    
-   
-}
-.items{
-    margin: 20px;
-    background-color:gainsboro;
-   
-   
-}
-.items p{
-    padding-left: 70px;
     font-weight: bold;
+    font-size:x-small;
 }
-.items img{
-    height: 200px;
+.left_side{
+    margin-left:7% ;
+    padding-top: 40px;
+}
+.kfc_logo{
+    float: left;   
+}
+.left_side h5{
+    padding-left: 40px;
+    float: left;
+    margin-top:5px;
+}
+.ac_icon{
+    margin-left: 65%;
+    float: left;
+    padding-right: 10px;
+}
+.right_side p{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 0;
+}
+.wallet p{
+    border-left: 1px solid gray;
+    padding-left: 10px;
+    float: left;
+    margin-top:0; 
+}
+.wallet_logo{
+    height: 50px;
+    margin-top: 0;
+}
+.right_side{
+    margin-top: 0;
+}
+.warn{
+    height:45px;
+    background-color: black;
+}
+.warn button{
+   
+    color: white;
+    background-color:red;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:x-small;
+}
+
+.message{
+    color: white;
+    padding-left: 35%;
+    float: left;
+    margin-top: 10px;
+ 
 }
 .item_head{
-    padding-left: 250px;
+    padding-left: 14%;
+    color: #202124;
+}
+.category{
+    padding-left: 14%;
+    padding-right: 10%;
+}
+.items{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(231, 228, 228, 0.973);
+    display: inline-block;
+}
+.items img{
+    height: 230px;
+}
+.items p{
+    font-weight: bold;
+    margin-left: 30%;
+}
+.menu_list{
+    width: 325px;
+}
+.menu_forward{
+    margin-left: 30%;
+}
+.offer_section{
+    background-color: black;
+    
+}
+.offer_head{
+    padding-left: 14%;
+    color: white;
+    padding-top: 50px;
+}
+.offer_list{
+    padding-left: 14%;
+    padding-right: 10%;
+}
+.offer{
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 12px;
+    
+}
+.offer img{
+    width: 300px;
+    border-radius: 20px;
+}
+.offer h2{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.offer a{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.offer button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:black;
+    background-color: white;
+    padding:10px 30px ;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.offer p{
+    font-size: small;
+    text-align: center;
+
 }
