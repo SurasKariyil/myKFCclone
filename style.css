@@ -44,6 +44,7 @@ body{
     margin-top:5px;
 }
 .ac_icon{
+    margin-top: 4px;
     margin-left: 65%;
     float: left;
     padding-right: 10px;
@@ -54,13 +55,13 @@ body{
     float: left;
     font-weight: bold;
     font-size: small;
-    margin-top: 0;
+    margin-top: 3px;
 }
 .wallet p{
     border-left: 1px solid gray;
     padding-left: 10px;
     float: left;
-    margin-top:0; 
+    margin-top:3px; 
 }
 .wallet_logo{
     height: 50px;
