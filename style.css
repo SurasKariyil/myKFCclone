@@ -115,7 +115,7 @@ body{
     margin-left: 30%;
 }
 .offer_section{
-    background-color: black;
+    background-color:#212529;
     
 }
 .offer_head{
@@ -162,3 +162,38 @@ body{
     text-align: center;
 
 }
+.copyright{
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 70%;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+.copyright th,tr,a{
+    color: white;
+    font-size: small;
+  
+}
+.official_logo{
+    padding-top: 700px;
+    padding-left:200px ;
+    float: left;
+}
+.app1,.app2{
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float:right
+}
+.footer{
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+.socialmedia{
+    padding-left:90%;
+    padding-bottom: 20px;
+}
+
