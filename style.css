@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .header{
-    margin-left: 35%;
+    padding-left: 35%;
 }
 .header img{
     float: left;
@@ -24,15 +24,21 @@ body{
     border-radius: 20px;
     font-weight: bold;
     font-size:x-small;
+    cursor: pointer;
 }
 .navbar,.header{
     position: fixed;
+    border-bottom: .5px solid lightgray;
     width: 100%;
     top: 0; 
     background-color: white;
 }
+.navbar{
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
 .left_side{
-    margin-left:7% ;
+    padding-left:7% ;
     padding-top: 40px;
 }
 .kfc_logo{
@@ -44,7 +50,7 @@ body{
     margin-top:5px;
 }
 .ac_icon{
-    margin-top: 4px;
+    padding-top: 15px;
     margin-left: 65%;
     float: left;
     padding-right: 10px;
@@ -55,43 +61,49 @@ body{
     float: left;
     font-weight: bold;
     font-size: small;
-    margin-top: 3px;
+    padding-top: 4px;
+   
 }
 .wallet p{
     border-left: 1px solid gray;
     padding-left: 10px;
     float: left;
-    margin-top:3px; 
+    padding-top:5px; 
 }
 .wallet_logo{
     height: 50px;
-    margin-top: 0;
-}
-.right_side{
-    margin-top: 0;
+
+
+ 
+   
 }
 .warn{
-    height:145px;
+    height:205px;
     background-color:#202124;
 }
 .warn button{
-    margin-top: 100px;
     color: white;
     background-color:red;
-    margin-top: 105px;
+    margin-top: 150px;
     margin-left: 10px;
-    padding: 10px 30px;
+    padding: 15px 50px;
     border: none;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size:x-small;
+    border-radius: 50px;
+    font-size:small;
+    cursor: pointer;
 }
 
 .message{
-    color: white;
-    padding-left: 35%;
+    font-size: 18px;
+    line-height: 20px;
+    color:#fff;
+    padding-left: 30%;
     float: left;
-    margin-top: 110px;
+    margin-top: 160px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 20px;
+    
  
 }
 .item_head{
@@ -163,6 +175,11 @@ body{
     padding:10px 30px ;
     border-radius: 20px;
     border: 1px solid black;
+    cursor: pointer;
+}
+.offer button:hover{
+    background-color: black;
+    color: white;
 }
 .offer p{
     font-size: small;
@@ -193,7 +210,8 @@ body{
     padding-left: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
-    float:right
+    float:right;
+    cursor: pointer;
 }
 .footer{
     color: white;
@@ -204,6 +222,7 @@ body{
     text-align: center;
 }
 .socialmedia{
+    cursor: pointer;
     text-align: end;
 }
 
