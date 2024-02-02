@@ -42,18 +42,21 @@ body{
     padding-top: 40px;
 }
 .kfc_logo{
-    float: left;   
+    float: left; 
+    cursor: pointer;  
 }
 .left_side h5{
     padding-left: 40px;
     float: left;
     margin-top:5px;
+    cursor: pointer;
 }
 .ac_icon{
     padding-top: 15px;
     margin-left: 65%;
     float: left;
     padding-right: 10px;
+    cursor: pointer;
 }
 .right_side p{
     padding-left: 10px;
@@ -62,7 +65,7 @@ body{
     font-weight: bold;
     font-size: small;
     padding-top: 4px;
-   
+    cursor: pointer;
 }
 .wallet p{
     border-left: 1px solid gray;
@@ -72,10 +75,7 @@ body{
 }
 .wallet_logo{
     height: 50px;
-
-
- 
-   
+    cursor: pointer; 
 }
 .warn{
     height:205px;
@@ -92,7 +92,6 @@ body{
     font-size:small;
     cursor: pointer;
 }
-
 .message{
     font-size: 18px;
     line-height: 20px;
@@ -103,8 +102,6 @@ body{
     font-weight: 700;
     letter-spacing: .5px;
     line-height: 20px;
-    
- 
 }
 .item_head{
     padding-left: 14%;
@@ -136,8 +133,7 @@ body{
     cursor: pointer;
 }
 .offer_section{
-    background-color:#212529;
-    
+    background-color:#212529; 
 }
 .offer_head{
     padding-left: 14%;
@@ -152,8 +148,7 @@ body{
     margin: 20px;
     background-color: white;
     display: inline-block;
-    border-radius: 12px;
-    
+    border-radius: 12px; 
 }
 .offer img{
     width: 300px;
@@ -186,27 +181,26 @@ body{
 .offer p{
     font-size: small;
     text-align: center;
-
 }
 .copyright{
     padding-top: 100px;
     padding-left: 150px;
-    width: 60%;
+    width: 70%;
     padding-bottom: 100px;
     display: inline-block;
-    border-spacing: 10px;
-  
+    border-spacing: 10px; 
 }
 .copyright td,tr,a{
     color: white;
     font-size:small;
-    padding-right:20px;
-  
+    padding-right:30px;
+    cursor: pointer; 
 }
 .official_logo{
     padding-top: 700px;
     padding-left:200px ;
     float: left;
+    cursor: pointer;
 }
 .app1,.app2{
     padding-left: 10px;
