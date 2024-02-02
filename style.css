@@ -119,6 +119,7 @@ body{
     margin-left: 20px;
     background-color: rgba(231, 228, 228, 0.973);
     display: inline-block;
+    cursor: pointer;
 }
 .items img{
     height: 230px;
@@ -132,6 +133,7 @@ body{
 }
 .menu_forward{
     margin-left: 30%;
+    cursor: pointer;
 }
 .offer_section{
     background-color:#212529;
