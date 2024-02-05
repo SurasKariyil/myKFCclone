@@ -115,12 +115,12 @@ body{
     border-bottom: .5px solid gray;
     margin: auto;
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 5px;
 
 }
 .category{
     padding-left: 14%;
-    padding-right: 12%;
+    padding-right: 10%;
 }
 .items{
     margin-top: 20px;
