@@ -104,12 +104,23 @@ body{
     line-height: 20px;
 }
 .item_head{
-    padding-left: 14%;
+    margin-top: 80px;
     color: #202124;
+    display:flex;
+    flex-direction: row;
+}
+.item_head:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: .5px solid gray;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 15px;
+
 }
 .category{
     padding-left: 14%;
-    padding-right: 10%;
+    padding-right: 12%;
 }
 .items{
     margin-top: 20px;
@@ -138,7 +149,7 @@ body{
 .offer_head{
     padding-left: 14%;
     color: white;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .offer_list{
     padding-left: 14%;
